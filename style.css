@@ -1,0 +1,35 @@
+@font-face {
+  font-family: typewriterDry;
+  src: url(TypewriterDry.otf);
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+button {
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+}
+
+select {
+  background-color: transparent;
+  font-family: typewriterDry;
+  font-size: 24px;
+  color: #ffffff;
+  outline: 0;
+  border-radius: 4px;
+}
+
+option {
+  background-color: #333333;
+}
+
+p {
+  font-family: typewriterDry;
+  font-size: 24px;
+  color: #ffffff;
+}
