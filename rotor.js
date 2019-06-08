@@ -20,6 +20,7 @@ class Rotor {
     this.select.value(this.number);
     this.select.changed(() => {
       this.number = this.select.value();
+      this.pos = 0;
       this.init();
       this.select.elt.blur();
     });
